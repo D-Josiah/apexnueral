@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="/assets/logo.png" type="image/x-icon">
+    <script src="burger.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="theme.js" defer></script>
+    <script src="dropdown.js" defer></script>
+    <script src="burger_drop.js" defer></script>
+    <script src="sub_mega.js" defer></script>
+
+    <title>ApexNeural</title>
+</head>
+<body>
+    
+    <div class="right-nav-burger">
+        <div class="country">
+            <p>Call our AI Consultant</p>
+            <p>+1 256-685-5681</p>
+        </div>
+    </div>
+
+      <!--burger menu-->
+      <div class="burger-wrap" >
+  
+        <button id="menu-toggle-btn">
+          <!-- Hamburger Menu Icon -->
+            <label for="menu-toggle" class="hamburger-menu">
+                <i class="fa-solid fa-bars" style="font-size: 24px;"></i>
+            </label>
+        </button>
+        <div class="logo-wrap">
+            <img id="logo-mobile" src="assets/logo_mobile.png">
+        </div>
+        
+        
+    
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html"><div class="nav-link"><p>Home</p></div></a></li>
+                <li><a href="about.html"><div class="nav-link"><p>About</p></div></a></li>
+                <li>
+                    <button class="dropdown-btn" id="drop1_b">
+                        <div class="nav-link"><p>Focus Area</p><i class="fa-solid fa-angle-right"></i></div>
+                    </button>
+                    <ul class="dropdown-content" id="mega1_b">
+                        <div class="title"><h1>What we do</h1><button id="close_focus"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="lists-wrap">
+                            <li><a href="cloud.html">Cloud</a></li>
+                            <li><a href="logistics.html">Logistics & Supply Chain</a></li>
+                            <li><a href="content.html">Content Management Solutions</a></li>
+                            <li><a href="industrial.html">Industrial Solutions</a></li>
+                            <li><a href="communication.html">Communications & Training</a></li>
+                            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                            <li><a href="web3.html">Web3 & Blockchain</a></li>
+                            <li><a href="transformation.html">Digital Transformation</a></li>
+                            <li><a href="finance.html">Digital Finance</a></li>
+                            <li><a href="engineering.html">Digital Engineering</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                            <li><a href="talent.html">Talent & Consulting</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <button class="dropdown-btn" id="industries-btn_b">
+                        <div class="nav-link">
+                            <p>Industries</p><i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </button>
+                    
+                    <!-- Dropdown Content -->
+                    <ul class="dropdown-content" id="industries-drop_b">
+                        <div class="title">
+                            <h1>Industries</h1>
+                            <button id="close_industry">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="lists-wrap">
+                            <li><a href="health.html">Health</a></li>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="banking.html">Banking and Finance</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="blog.html"><div class="nav-link"><p>Insights</p></div></a></li>
+                
+
+                
+            </ul>
+        </nav>
+    
+        
+    </div>
+  
+    
+    <div class="nav-wrap">
+        <div class="logo-wrap">
+            <img src="assets/logo.png" style="width: 48px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" >
+                    <div  class="nav-link">
+                        <p>Home</p>
+                    
+                    </div>
+                    </a>
+                </li>
+                <li><a href="about.html" >
+                    <div  class="nav-link">
+                        <p>About</p>
+                    
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <button id="drop1">
+                        <div class="nav-link">
+                            <p>Focus Area</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <ul id="mega1" >
+                        <div class="title">
+                            <h1>What we do</h1>
+                            <button><i class="fa-solid fa-chevron-right" style="color:white;"></i></button>
+                        </div>
+                        <div class="lists-wrap">
+                            <li><a href="cloud.html">Cloud</a></li>
+                            <li><a href="logistics.html">Logistics & Supply Chain</a></li>
+                            <li><a href="content.html">Content Management Solutions</a></li>
+                            <li><a href="industrial.html">Industrial Solutions</a></li>
+                            <li><a href="communication.html">Communications & Training</a></li>
+                            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                            <li><a href="web3.html">Web3 & Blockchain</a></li>
+                            <li><a href="transformation.html">Digital Transformation</a></li>
+                            <li><a href="finance.html">Digital Finance</a></li>
+                            <li><a href="engineering.html">Digital Engineering</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                            <li><a href="talent.html">Talent & Consulting</a></li>
+
+                        </div>
+                       
+                    </ul>
+                </li>
+                
+                     
+                <li>
+                    <button id="industries-btn">
+                        <div class="nav-link">
+                            <p>Industries</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <ul id="industries-drop" >
+                        <div class="lists-wrap">
+                            <li><a href="health.html">Health</a></li>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="banking.html">Banking and Finance</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </div>
+
+                    </ul>
+                </li>
+                     
+                <li><a href="blog.html"><div class="nav-link"><p>Insights</p></div></a></li>
+               
+                
+            </ul>
+        </nav>
+        <div class="right-nav">
+            <div class="country">
+                <p>Call our AI Consultant</p>
+                <p>+1 256-685-5681</p>
+            </div>
+        </div>
+    </div>
+    <div class="subp-menu">
+        <h2>Cloud</h2>
+        <ul>
+            <li><a href="#do"> What to do</a></li>
+            <li><a href="#area">Areas we support</a></li>
+            <li><a href="#trending">What's trending</a></li>
+         
+         
+        </ul>
+        <button id="down-btn" class="down-btn"  >
+            
+            <i id="chevron-icon" class="fas fa-chevron-down" ></i>
+        </button>
+    </div>
+    <div id="sub-mega" class="sub-mega" style="display: none;">
+        <ul class="sub-megalinks">
+           
+            <li><a href="#do" class="sub-megalinks">What to do</a></li>
+            <li><a href="#area" class="sub-megalinks">Areas we support</a></li>
+            <li><a href="#trending" class="sub-megalinks">What's trending</a></li>
+        </ul>
+    </div>
+
+    <section class="sub-hero">
+        <div class="left cloud-hero">
+
+        </div>
+        <div class="right">
+            <h1>Lead the future with cloud technology</h1>
+            <h2>Reimagine and scale your business with our cloud platform solutions. From cloud infrastructure optimization to seamless integrations, our expertise in cloud services helps businesses enhance agility, drive innovation, and achieve operational excellence. With our tailored approach, we ensure your cloud ecosystem supports sustainable growth and future-proofing.</h2>
+
+        </div>
+    </section>
+
+    <section class="sub-grid" >
+        <h1>Cloud Now</h1>
+        <div class="item-wrap">
+            <div >
+
+                <hr>
+                <h1>80%</h1>
+                <p> of enterprises will shift to cloud by 2025</p>
+            </div>
+            <div >
+                <hr>
+                <h1>$1.3T</h1>
+                <p> projected cloud spending by 2030</p>
+            </div>
+            <div >
+                <hr>
+                <h1>65%</h1>
+                <p> improved operational efficiency from cloud adoption</p>
+            </div>
+         
+        </div>
+    </section>
+    <section class="sub-gallery1" id="do">
+        <h1>What to Do:</h1>
+        <div class="lunchbox">
+            <div class="item">
+                <hr>
+                <h2>1. Cloud Strategy Development:</h2>
+                <p>Craft a tailored cloud roadmap aligned with business goals for growth and innovation.
+                </p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>2. Infrastructure Modernization:</h2>
+                <p>Optimize your existing infrastructure by transitioning to cloud-based platforms for scalability.</p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>3. Cloud-Native Applications:</h2>
+                <p>Build and deploy applications specifically for cloud environments to enhance efficiency.</p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>4. Security and Compliance:</h2>
+                <p>Ensure your cloud infrastructure meets industry standards and safeguards sensitive data.</p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>5. Cost Optimization:</h2>
+                <p>Optimize cloud spending with efficient resource management and budget-aligned scaling.</p>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="sub-content" id="area">
+        <h1>Areas we support:</h1>
+        <h3>Cloud Strategy & Consulting</h3>
+        <h3>Cloud Migration</h3>
+        <h3>Multi-Cloud Management</h3>
+        <h3>Cloud Application Development</h3>
+        <h3>Security & Compliance</h3>
+    </section>
+
+    <section class="partners" id="trending">
+        <h1 class="whats">What's trending with Cloud</h1>
+        <div class="item-wrap">
+            <div class="item">
+             
+                <h2>Research Report </h2>
+                <p>The Future of Cloud: Scaling InnovationExplore how cloud platforms are unlocking new capabilities in industries across the globe.</p>
+            </div>
+            <div class="item">
+ 
+                <h2> Whitepaper</h2>
+                <p>Cloud Resiliency in the Digital Age:
+                    Discover how resilient cloud infrastructures enable business continuity in the face of disruptions.
+                    </p>
+            </div>
+            <div class="item">
+               
+                <h2> Blog Post</h2>
+                <p>The Role of AI in Cloud Optimization:
+                    Learn how AI is transforming cloud management, driving efficiency, and reducing costs.
+                    </p>
+            </div>
+            
+        </div>
+       
+    </section>
+
+ 
+
+   
+    <footer>
+        <div class="left">
+            
+          
+            <div class="theme-toggle">
+                <h4>Theme Color</h4>
+                <br>
+                <button id="dark-mode-toggle" class="theme-button">
+                  <i class="fa-solid fa-moon"></i> <!-- Moon icon for dark mode -->
+                </button>
+                <button id="light-mode-toggle" class="theme-button">
+                  <i class="fa-solid fa-sun"></i> <!-- Sun icon for light mode -->
+                </button>
+            </div>
+
+            <h3> &copy; 2024 ApexNeural. All Rights Reserved.</h3>
+        </div>
+      
+     
+      
+    </footer>
+    
+</body>
+</html>

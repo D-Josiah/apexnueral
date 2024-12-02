@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="burger.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="theme.js" defer></script>
+    <script src="dropdown.js" defer></script>
+    <script src="burger_drop.js" defer></script>
+
+    <title>ApexNeural</title>
+</head>
+<body>
+    
+    <div class="right-nav-burger">
+        <div class="country">
+            <p>Call our AI Consultant</p>
+            <p>+1 256-685-5681</p>
+        </div>
+    </div>
+
+      <!--burger menu-->
+      <div class="burger-wrap" >
+  
+        <button id="menu-toggle-btn">
+          <!-- Hamburger Menu Icon -->
+            <label for="menu-toggle" class="hamburger-menu">
+                <i class="fa-solid fa-bars" style="font-size: 24px;"></i>
+            </label>
+        </button>
+        
+    
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html"><div class="nav-link"><p>Home</p></div></a></li>
+                <li><a href="about.html"><div class="nav-link"><p>About</p></div></a></li>
+                <li>
+                    <button class="dropdown-btn" id="drop1_b">
+                        <div class="nav-link"><p>Focus Area</p><i class="fa-solid fa-angle-right"></i></div>
+                    </button>
+                    <ul class="dropdown-content" id="mega1_b">
+                        <div class="title"><h1>What we do</h1><button><i class="fa-solid fa-chevron-right" style="color:white;"></i></button></div>
+                        <div class="lists-wrap">
+                            <li><a href="cloud.html">Cloud</a></li>
+                            <li><a href="logistics.html">Logistics & Supply Chain</a></li>
+                            <li><a href="content.html">Content Management Solutions</a></li>
+                            <li><a href="industrial.html">Industrial Solutions</a></li>
+                            <li><a href="communication.html">Communications & Training</a></li>
+                            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                            <li><a href="web3.html">Web3 & Blockchain</a></li>
+                            <li><a href="transformation.html">Digital Transformation</a></li>
+                            <li><a href="finance.html">Digital Finance</a></li>
+                            <li><a href="engineering.html">Digital Engineering</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                        </div>
+                    </ul>
+                </li>
+                
+                <li>
+                    <button class="dropdown-btn" id="industries-btn_b">
+                        <div class="nav-link"><p>Industries</p><i class="fa-solid fa-angle-right"></i></div>
+                    </button>
+                    <ul class="dropdown-content" id="industries-drop_b">
+                     <div class="title">
+                        <h1>What we do</h1>
+                        <button><i class="fa-solid fa-chevron-right" style="color:white;"></i>
+                        </button>
+                    </div>
+                    <div class="lists-wrap">
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="legal.html">Legal</a></li>
+                        <li><a href="banking.html">Banking and Finance</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                    </div>
+                    </ul>
+                </li>
+
+
+                <li><a href="blog.html"><div class="nav-link"><p>Insights</p></div></a></li>
+                
+
+                
+            </ul>
+        </nav>
+    
+        
+    </div>
+  
+    
+    <div class="nav-wrap">
+        <div class="logo-wrap">
+            <img src="assets/logo.png" style="width: 48px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" >
+                    <div  class="nav-link">
+                        <p>Home</p>
+                    
+                    </div>
+                    </a>
+                </li>
+                <li><a href="about.html" >
+                    <div  class="nav-link">
+                        <p>About</p>
+                    
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <button id="drop1">
+                        <div class="nav-link">
+                            <p>Focus Area</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <ul id="mega1" >
+                        <div class="title">
+                            <h1>What we do</h1>
+                            <button><i class="fa-solid fa-chevron-right" style="color:white;"></i></button>
+                        </div>
+                        <div class="lists-wrap">
+                            <li><a href="cloud.html">Cloud</a></li>
+                            <li><a href="logistics.html">Logistics & Supply Chain</a></li>
+                            <li><a href="content.html">Content Management Solutions</a></li>
+                            <li><a href="industrial.html">Industrial Solutions</a></li>
+                            <li><a href="communication.html">Communications & Training</a></li>
+                            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                            <li><a href="web3.html">Web3 & Blockchain</a></li>
+                            <li><a href="transformation.html">Digital Transformation</a></li>
+                            <li><a href="finance.html">Digital Finance</a></li>
+                            <li><a href="engineering.html">Digital Engineering</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+
+                        </div>
+                       
+                    </ul>
+                </li>
+                
+                     
+                <li>
+                    <button id="industries-btn">
+                        <div class="nav-link">
+                            <p>Industries</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <ul id="industries-drop" >
+                        <div class="lists-wrap">
+                            <li><a href="health.html">Health</a></li>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="banking.html">Banking and Finance</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </div>
+
+                    </ul>
+                </li>
+                     
+                <li><a href="blog.html"><div class="nav-link"><p>Insights</p></div></a></li>
+               
+                
+            </ul>
+        </nav>
+        <div class="right-nav">
+            <div class="country">
+                <p>Call our AI Consultant</p>
+                <p>+1 256-685-5681</p>
+            </div>
+        </div>
+    </div>
+    <div class="subp-menu">
+        <h2>Sales & Commerce</h2>
+        <ul>
+            <li><a href="#do"> What to do</a></li>
+            <li><a href="#trend">What's trending</a></li>
+            <li><a href="#partner">Partners</a></li>
+            <li><a href="#careers">Careers</a></li>
+        </ul>
+    </div>
+    <section class="sub-hero">
+        <div class="left">
+
+        </div>
+        <div class="right">
+            <h1>Sales and Commerce at the speed of life</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sed facere hic, soluta sint tempora sunt natus aspernatur fugiat earum ullam omnis molestiae voluptatum a ad architecto suscipit nihil velit?</h2>
+
+        </div>
+    </section>
+
+    <section class="sub-grid" >
+        <h1>Sales & Commerce now</h1>
+        <div class="item-wrap">
+            <div >
+
+                <hr>
+                <h1>94%</h1>
+                <p>Lore pimsum dolor met</p>
+            </div>
+            <div >
+                <hr>
+                <h1>94%</h1>
+                <p>Lore pimsum dolor met</p>
+            </div>
+            <div >
+                <hr>
+                <h1>94%</h1>
+                <p>Lore pimsum dolor met</p>
+            </div>
+            <div >
+                <hr>
+                <h1>94%</h1>
+                <p>Lore pimsum dolor met</p>
+            </div>
+        </div>
+    </section>
+    <section class="sub-gallery1" id="do">
+        <h1>REINVENT WITH SALES & COMMERCE</h1>
+        <div class="lunchbox">
+            <div class="item1">
+                <hr>
+                <h2>INTELLIGENT OPERATIONS</h2>
+                <p>Lorem pimsum dolor met</p>
+                <img src="assets/2.png">
+            </div>
+            <div class="item2">
+                <hr>
+                <h2>INTELLIGENT OPERATIONS</h2>
+                <p>Lorem pimsum dolor met</p>
+            </div>
+            <div class="item3">
+                <hr>
+                <h2>INTELLIGENT OPERATIONS</h2>
+                <p>Lorem pimsum dolor met</p>
+            </div>
+            <div class="item4">
+                <hr>
+                <h2>INTELLIGENT OPERATIONS</h2>
+                <p>Lorem pimsum dolor met</p>
+                <h1>94%</h1>
+                <p>Lore pimsum dolor met</p>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="sub-content">
+        <h1>Your new kind of sales and commerce partner</h1>
+        <h3>The worlds largest tech powered group</h3>
+        <button>Make Accenture Song</button>
+
+    </section>
+
+    <section class="sub-gallery2" id="trend">
+        <h1>What's trending with sales & commerce</h1>
+        <div class="item-wrap">
+            <div class="item1" >
+                <h2>Case Study </h2>
+                <h3>Turning years of data into instant insight:Fortube</h3>
+            </div>
+
+            <div class="item item2" >
+                <h2>Case Study </h2>
+                <h3>Turning years of data into instant insight:Fortube</h3>
+            </div>
+            <div class="item item3" >
+
+                <h2>Case Study </h2>
+                <h3>Turning years of data into instant insight:Fortube</h3>
+            </div>
+            <div class="item item4" >
+
+                <h2>Case Study </h2>
+                <h3>Turning years of data into instant insight:Fortube</h3>
+            </div>
+        </div>
+    </section>
+
+
+   
+    <footer>
+        <div class="left">
+            
+          
+            <div class="theme-toggle">
+                <h4>Theme Color</h4>
+                <br>
+                <button id="dark-mode-toggle" class="theme-button">
+                  <i class="fa-solid fa-moon"></i> <!-- Moon icon for dark mode -->
+                </button>
+                <button id="light-mode-toggle" class="theme-button">
+                  <i class="fa-solid fa-sun"></i> <!-- Sun icon for light mode -->
+                </button>
+            </div>
+
+            <h3> &copy; 2024 ApexNeural. All Rights Reserved.</h3>
+        </div>
+      
+     
+      
+    </footer>
+    
+</body>
+</html>

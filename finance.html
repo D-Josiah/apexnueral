@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="/assets/logo.png" type="image/x-icon">
+    <script src="burger.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="theme.js" defer></script>
+    <script src="dropdown.js" defer></script>
+    <script src="burger_drop.js" defer></script>
+    <script src="sub_mega.js" defer></script>
+
+    <title>ApexNeural</title>
+</head>
+<body>
+    
+    <div class="right-nav-burger">
+        <div class="country">
+            <p>Call our AI Consultant</p>
+            <p>+1 256-685-5681</p>
+        </div>
+    </div>
+
+      <!--burger menu-->
+      <div class="burger-wrap" >
+  
+        <button id="menu-toggle-btn">
+          <!-- Hamburger Menu Icon -->
+            <label for="menu-toggle" class="hamburger-menu">
+                <i class="fa-solid fa-bars" style="font-size: 24px;"></i>
+            </label>
+        </button>
+        <div class="logo-wrap">
+            <img id="logo-mobile" src="assets/logo_mobile.png">
+        </div>
+        
+        
+    
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html"><div class="nav-link"><p>Home</p></div></a></li>
+                <li><a href="about.html"><div class="nav-link"><p>About</p></div></a></li>
+                <li>
+                    <button class="dropdown-btn" id="drop1_b">
+                        <div class="nav-link"><p>Focus Area</p><i class="fa-solid fa-angle-right"></i></div>
+                    </button>
+                    <ul class="dropdown-content" id="mega1_b">
+                        <div class="title"><h1>What we do</h1><button id="close_focus"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="lists-wrap">
+                            <li><a href="cloud.html">Cloud</a></li>
+                            <li><a href="logistics.html">Logistics & Supply Chain</a></li>
+                            <li><a href="content.html">Content Management Solutions</a></li>
+                            <li><a href="industrial.html">Industrial Solutions</a></li>
+                            <li><a href="communication.html">Communications & Training</a></li>
+                            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                            <li><a href="web3.html">Web3 & Blockchain</a></li>
+                            <li><a href="transformation.html">Digital Transformation</a></li>
+                            <li><a href="finance.html">Digital Finance</a></li>
+                            <li><a href="engineering.html">Digital Engineering</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                            <li><a href="talent.html">Talent & Consulting</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <button class="dropdown-btn" id="industries-btn_b">
+                        <div class="nav-link">
+                            <p>Industries</p><i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </button>
+                    
+                    <!-- Dropdown Content -->
+                    <ul class="dropdown-content" id="industries-drop_b">
+                        <div class="title">
+                            <h1>Industries</h1>
+                            <button id="close_industry">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="lists-wrap">
+                            <li><a href="health.html">Health</a></li>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="banking.html">Banking and Finance</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="blog.html"><div class="nav-link"><p>Insights</p></div></a></li>
+                
+
+                
+            </ul>
+        </nav>
+    
+        
+    </div>
+  
+    
+    <div class="nav-wrap">
+        <div class="logo-wrap">
+            <img src="assets/logo.png" style="width: 48px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" >
+                    <div  class="nav-link">
+                        <p>Home</p>
+                    
+                    </div>
+                    </a>
+                </li>
+                <li><a href="about.html" >
+                    <div  class="nav-link">
+                        <p>About</p>
+                    
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <button id="drop1">
+                        <div class="nav-link">
+                            <p>Focus Area</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <ul id="mega1" >
+                        <div class="title">
+                            <h1>What we do</h1>
+                            <button><i class="fa-solid fa-chevron-right" style="color:white;"></i></button>
+                        </div>
+                        <div class="lists-wrap">
+                            <li><a href="cloud.html">Cloud</a></li>
+                            <li><a href="logistics.html">Logistics & Supply Chain</a></li>
+                            <li><a href="content.html">Content Management Solutions</a></li>
+                            <li><a href="industrial.html">Industrial Solutions</a></li>
+                            <li><a href="communication.html">Communications & Training</a></li>
+                            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                            <li><a href="web3.html">Web3 & Blockchain</a></li>
+                            <li><a href="transformation.html">Digital Transformation</a></li>
+                            <li><a href="finance.html">Digital Finance</a></li>
+                            <li><a href="engineering.html">Digital Engineering</a></li>
+                            <li><a href="enterprise.html">Enterprise Platforms</a></li>
+                            <li><a href="talent.html">Talent & Consulting</a></li>
+
+                        </div>
+                       
+                    </ul>
+                </li>
+                
+                     
+                <li>
+                    <button id="industries-btn">
+                        <div class="nav-link">
+                            <p>Industries</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </button>
+                    <ul id="industries-drop" >
+                        <div class="lists-wrap">
+                            <li><a href="health.html">Health</a></li>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="banking.html">Banking and Finance</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </div>
+
+                    </ul>
+                </li>
+                     
+                <li><a href="blog.html"><div class="nav-link"><p>Insights</p></div></a></li>
+               
+                
+            </ul>
+        </nav>
+        <div class="right-nav">
+            <div class="country">
+                <p>Call our AI Consultant</p>
+                <p>+1 256-685-5681</p>
+            </div>
+        </div>
+    </div>
+    <div class="subp-menu">
+        <h2>Digita Finance</h2>
+        <ul>
+            <li><a href="#do"> What to do</a></li>
+            <li><a href="#area">Areas we support</a></li>
+            <li><a href="#trending">What's trending</a></li>
+         
+         
+        </ul>
+        <button id="down-btn" class="down-btn"  >
+            
+            <i id="chevron-icon" class="fas fa-chevron-down" ></i>
+        </button>
+    </div>
+    <div id="sub-mega" class="sub-mega" style="display: none;">
+        <ul class="sub-megalinks">
+           
+            <li><a href="#do" class="sub-megalinks">What to do</a></li>
+            <li><a href="#area" class="sub-megalinks">Areas we support</a></li>
+            <li><a href="#trending" class="sub-megalinks">What's trending</a></li>
+        </ul>
+    </div>
+    <section class="sub-hero">
+        <div class="left finance-hero">
+
+        </div>
+        <div class="right">
+            <h1>Revolutionize your financial operations with digital finance.
+            </h1>
+            <h2>Unlock new growth opportunities by modernizing your financial processes with digital finance solutions. We leverage cutting-edge technologies like AI, automation, and data analytics to streamline financial operations, improve decision-making, and reduce operational costs. Our digital finance solutions enable you to meet today’s demands for speed, scalability, and accuracy while driving long-term business value.
+            </h2>
+
+        </div>
+    </section>
+
+    <section class="sub-grid" >
+        <h1>Digital Finance Now</h1>
+        <div class="item-wrap">
+            <div >
+
+                <hr>
+                <h1>30%</h1>
+                <p>  improvement in overall efficiency with AI-powered finance solutions.</p>
+            </div>
+            <div >
+                <hr>
+                <h1>60%</h1>
+                <p>   reduction in total cost of ownership (TCO) over 5 years with finance automation.
+
+                </p>
+            </div>
+            <div >
+                <hr>
+                <h1>
+                    $10M 
+                    </h1>
+                <p> annual savings through reduced revenue leakage.
+
+                </p>
+            </div>
+         
+        </div>
+    </section>
+    <section class="sub-gallery1" id="do">
+        <h1>What to Do:</h1>
+        <div class="lunchbox">
+            <div class="item">
+                <hr>
+                <h2>
+                    1. Finance Transformation & Strategy:
+
+                </h2>
+                <p>Develop a robust, data-driven finance strategy that enhances agility and resilience.
+                </p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>
+                    
+                    
+2. AI-Powered Financial Insights:
+
+
+
+                    </h2>
+                <p>Leverage AI and data analytics to unlock real-time financial insights and improve decision-making.</p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>
+                   
+                    3. Automated Financial Processes:
+
+                    </h2>
+                <p>Automate core financial operations like invoicing, accounting, and reporting for faster, error-free processes.</p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>
+                   
+                    4. Cloud-Based Finance Solutions:
+
+                    </h2>
+                <p>Move your financial systems to the cloud for enhanced scalability, security, and flexibility.</p>
+            </div>
+            <div class="item">
+                <hr>
+                <h2>
+                  
+                    5. Risk Management & Compliance:
+
+                    </h2>
+                <p>Ensure compliance with global financial regulations while proactively managing risk through automated solutions.</p>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="sub-content" id="area">
+        <h1>Areas we support:</h1>
+        <h3>
+           
+           
+
+            Finance Strategy & Digital Transformation
+
+
+
+            </h3>
+        <h3>
+
+            AI-Driven Financial Insights
+
+            </h3>
+        <h3>
+          
+Cloud Financial Solutions
+
+            </h3>
+        <h3>
+        
+
+            Risk Management & Compliance
+
+
+            </h3>
+        <h3>
+            Financial Process Automation
+
+            </h3>
+    </section>
+
+    <section class="partners" id="trending">
+        <h1 class="whats">What's trending with Digital Finance</h1>
+        <div class="item-wrap">
+            <div class="item">
+             
+                <h2>Research Report:</h2>
+                <p>Explore how finance leaders are adopting AI and automation to drive efficiency and reduce operational costs.</p>
+            </div>
+            <div class="item">
+   
+                <h2> Whitepaper</h2>
+                <p>Reimagining Finance for the Digital Age
+                    Learn how organizations are transitioning to cloud-based finance systems to enhance agility and resilience.
+                    
+                    </p>
+            </div>
+            <div class="item">
+               
+                <h2> Blog Post</h2>
+                <p>The Role of AI in Finance Transformation
+                    Discover how AI is reshaping financial operations by enabling real-time insights and automation.
+                    
+                    
+                    
+                    </p>
+            </div>
+            
+        </div>
+       
+    </section>
+
+ 
+
+   
+    <footer>
+        <div class="left">
+            
+          
+            <div class="theme-toggle">
+                <h4>Theme Color</h4>
+                <br>
+                <button id="dark-mode-toggle" class="theme-button">
+                  <i class="fa-solid fa-moon"></i> <!-- Moon icon for dark mode -->
+                </button>
+                <button id="light-mode-toggle" class="theme-button">
+                  <i class="fa-solid fa-sun"></i> <!-- Sun icon for light mode -->
+                </button>
+            </div>
+
+            <h3> &copy; 2024 ApexNeural. All Rights Reserved.</h3>
+        </div>
+      
+     
+      
+    </footer>
+    
+</body>
+</html>
